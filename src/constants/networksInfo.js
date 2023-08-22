@@ -85,7 +85,6 @@ export const networks = {
     chainId: 1969,
     explorer: "https://testnetscan.scschain.com/",
     color: "#CC9B00",
-    multicall: "0x6e5BB1a5Ad6F68A8D7D6A5e47750eC15773d6042",
     fromBlock: 27113000,
     baseCurrency: {
       decimals: 18,
