@@ -79,6 +79,25 @@ export const networks = {
       symbol: "WBNB"
     }
   },
+    1969: {
+    name: "Super Smart Chain Testnet",
+    rpc: "https://testnetrpc.scschain.com",
+    chainId: 1969,
+    explorer: "https://testnetscan.scschain.com/",
+    color: "#CC9B00",
+    multicall: "0x6e5BB1a5Ad6F68A8D7D6A5e47750eC15773d6042",
+    fromBlock: 27113000,
+    baseCurrency: {
+      decimals: 18,
+      name: "TSCS",
+      symbol: "TSCS"
+    },
+    wrappedToken: {
+      address: "0x2bDa8F0AE0E7C584c77dD5C74c486Fe717692c30",
+      name: "Tether SCS",
+      symbol: "USCS"
+    }
+  },
 }
 
 export const chainRouter = {
